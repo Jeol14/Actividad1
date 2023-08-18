@@ -9,7 +9,7 @@ function Componente2_Contador(props) {
         
        <button onClick={()=>props.setCount (e=>e+1)}>Aumentar</button><p> </p>
        <button onClick={()=>props.setCount (e=>e-1)}>Disminuir</button><p> </p>
-       <button onClick={()=>props.setCount (e=>0)}>Reiniciar</button>
+       <button onClick={()=>props.setCount (e=>0)}>Reiniciar</button><p> </p>
        <button onClick={almacenar}>Almacenar en LocalStorage</button><p> </p>
     </div>
   )
