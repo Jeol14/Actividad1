@@ -1,0 +1,68 @@
+h2 {
+  color: brown;
+  text-align: center;
+}
+
+.Contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.ContainerTarjeta {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  margin: 10px;
+  text-align: justify;
+  position: relative;
+}
+
+.img {
+  width: 45%;
+  height: auto;
+  align-self: center;
+  margin-left: 10%;
+}
+
+.TituloTarjeta {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.Body {
+  margin: 10px;
+}
+
+.Boton {
+  margin-left: 10px;
+}
+
+/* Media Queries para diseño responsive */
+@media (min-width: 768px) {
+  .Contenedor {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .ContainerTarjeta {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Contenedor {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .ContainerTarjeta {
+    width: 31%;
+    margin-bottom: 20px;
+  }
+}
